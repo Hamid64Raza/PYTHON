@@ -23,7 +23,7 @@ def validate(password):
             print("User may use a non ASCII keyboard!")
             return False
         
-    # Check if all: letter, number and symbol in the set
+    # Check if all: letter, number and symbol in the set.
     if "letter" not in a_set:
         print("No letter in password!")
         return False
